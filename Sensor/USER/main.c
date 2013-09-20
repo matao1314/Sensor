@@ -27,8 +27,8 @@ AD_value AD_VALUE;
 int main(void)
 {	
   uint16_t temp;
-	u16 AD_value0=0;
-	u16 AD_value1=0;
+//	u16 AD_value0=0;
+//	u16 AD_value1=0;
   SystemInit();
 	delay_init(72);
 	uart_init(72,9600);	 	//串口初始化为9600
